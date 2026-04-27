@@ -4,7 +4,7 @@
   "description": "Stack frontend + API — Proyecto Final DevOps",
   "dependencies": {
     "lodash": "4.17.11",
-    "express": "4.17.1"
+    "express": "5.2.1"
   },
   "devDependencies": {
     "jest": "26.0.0"
