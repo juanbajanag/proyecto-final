@@ -1,9 +1,7 @@
 {
-  "name": "proyecto-final",
+  "name": "api-devops",
   "version": "1.0.0",
-  "description": "Sitio web con DevOps",
-  "scripts": {
-    "test": "echo 'Tests'",
-    "start": "python3 -m http.server 8000"
+  "dependencies": {
+    "json-server": "^0.17.0"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "secciones": [
+    { "id": 1, "nombre": "Sección 1 — Repositorio y Workflows activos"},
+    { "id": 2, "nombre": "Sección 2 — Sitio en vivo con GitHub Pages"},
+    { "id": 3, "nombre": "Sección 3 — Imagen Docker en GHCR"},
+    { "id": 4, "nombre": "Sección 4 — Stack Docker Compose corriendo localmente"},
+    { "id": 5, "nombre": "Sección 5 — Seguridad: Dependabot y CodeQL"}
+  ]
+}

@@ -1,0 +1,26 @@
+services:
+
+  web:
+    image: nginx:alpine
+    container_name: mi-web-final
+    ports:
+      - "8080:80"
+    volumes:
+      - C:/Proyectos/proyecto-final/src:/usr/share/nginx/html:ro
+      - C:/Proyectos/proyecto-final/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - mi-red-interna
+    depends_on:
+      - api
+
+  api:
+    image: clue/json-server
+    container_name: mi-api-final
+    volumes:
+      - C:/Proyectos/proyecto-final/db.json:/data/db.json:ro
+    networks:
+      - mi-red-interna
+
+networks:
+  mi-red-interna:
+    driver: bridge
