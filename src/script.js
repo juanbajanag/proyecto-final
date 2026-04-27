@@ -23,9 +23,11 @@ async function cargar(endpoint, elementoId) {
     // 👉 Si estás en GitHub Pages → usar datos mock
     if (isGitHubPages) {
       const datosMock = [
-        { nombre: "Sección 1: CI/CD" },
-        { nombre: "Sección 2: Docker" },
-        { nombre: "Sección 3: Seguridad" }
+        { nombre: "Sección 1 — Repositorio y Workflows activos" },
+        { nombre: "Sección 2 — Sitio en vivo con GitHub Pages" },
+        { nombre: "Sección 3 — Imagen Docker en GHCR" },
+        { nombre: "Sección 4 — Stack Docker Compose corriendo localmente" },
+        { nombre: "Sección 5 — Seguridad: Dependabot y CodeQL" }
       ];
 
       render(lista, datosMock);
